@@ -1,3 +1,4 @@
+# hrs = work hours per week
 hrs = input("Enter Hours:")
 h = float(hrs)
 # rph = rate per hour
