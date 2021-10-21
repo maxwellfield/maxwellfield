@@ -1,0 +1,6 @@
+/* Print Stylesheet Reference */
+@media print {
+    background-color: white;
+        color: black;
+        font-size: 12px;
+}

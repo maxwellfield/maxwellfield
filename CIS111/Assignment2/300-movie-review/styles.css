@@ -1,0 +1,76 @@
+/* 300 Movie Review Style Sheet */
+body {
+    background: linear-gradient(darkred, black);
+    font-family: Georgia;
+}
+main {
+    border: 3px solid black;
+    background-color: white;
+    margin: 50px;
+    padding: 20px;
+}
+h {
+    font-family: "Trebuchet MS";
+}
+h1 span {
+    color: red;
+}
+h3 {
+    color: grey;
+    font-size: x-small;
+}
+p {
+    font-size: small;
+    text-align: justify;
+    line-height: 1.5;
+}
+div:first-letter {
+    background-image: url("tree-of-death.jpg");
+    margin-top: 5px;
+    margin-right: 5px;
+    font-size: 50px;
+    float: left;
+    color: white;
+    border: 2px solid darkred;
+    padding: 5px;
+}
+div:first-line {
+    font-variant: all-small-caps;
+}
+#comp {
+    float: right;
+    margin-left: 15px;
+    width: 60%;
+}
+#cliff {
+    width: 100%;
+    border: 2px solid darkred;
+}
+#xerxes {
+    float: left;
+    margin-right: 15px;
+    width: 60%;
+}
+#footnote {
+    font-size: x-small;
+}
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+    body {
+        background-color: #F09A9D; /* Red */
+    }
+}
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    body {
+        background-color: #F5CF8E; /* Yellow */
+    }
+}
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+    body {
+        background-color: #B2D6FF; /* Blue */
+    }
+}
+
+
