@@ -1,0 +1,5 @@
+Exercise 2: Given that fruit is a string, what does fruit[:] mean?
+
+Entering fruit[:] within Python returns all the values within the entire fruit string.
+When fruit = 'banana' this results in:
+'banana'
