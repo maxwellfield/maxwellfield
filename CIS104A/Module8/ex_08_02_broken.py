@@ -4,7 +4,7 @@
 # and then modify the program so that the line is properly guarded and test it
 # to make sure it handles your new text file.
 
-# Answer: Line 15 is still not properly guarded. I modified the text file and
+# Answer: Line 16 is still not properly guarded. I modified the text file and
 # made the first From: blank. It fails immediately.
 
 
